@@ -4,7 +4,7 @@
 This directory contains the publicly shareable research outputs (e.g., Jupyter Notebooks, analysis scripts, and workflow programs) created by \[Student Name\] during the FY2026 Laboratory Research, a third-year course at the Faculty of Medicine, Tokushima University.  
 
 ## Research Project; Regional differences in type 2 diabetes prevalence in Japan
-abstract
+### abstract
 Background and Objective:
  Regional differences in type 2 diabetes prevalence have been reported in Japan, but the underlying factors remain unclear. This study investigated whether genetic risk, neighborhood environment, and physical activity could explain these regional differences.
 
