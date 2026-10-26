@@ -23,8 +23,8 @@ Future Perspectives:
 ***(Note: Feel free to edit the README structure based on your project and preference!)***  
 
 ## Notebooks and Other Materials
-Main Analysis: 01_main_analysis.ipynb
-Site-specific Analysis: 02_site_specific_analysis.ipynb
+- Main Analysis: 01_main_analysis.ipynb
+- Site-specific Analysis: 02_site_specific_analysis.ipynb
 
 ## Requirements
 This project was developed using:
