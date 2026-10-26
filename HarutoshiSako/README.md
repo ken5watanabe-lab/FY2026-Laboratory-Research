@@ -20,8 +20,6 @@ Conclusion:
 Future Perspectives:
  Further studies incorporating dietary habits and additional environmental factors are warranted.
 
-***(Note: Feel free to edit the README structure based on your project and preference!)***  
-
 ## Notebooks and Other Materials
 - Main Analysis: 01_main_analysis.ipynb
 - Site-specific Analysis: 02_site_specific_analysis.ipynb
@@ -30,7 +28,7 @@ Future Perspectives:
 This project was developed using:
 
 R 4.3.3 (2024-02-29)
-Main R packages:
+- Main R packages:
 
 - pacman
 - rio
@@ -50,7 +48,6 @@ Japanese figures were rendered using the Google Font "Noto Sans JP" via the show
 
 ## Licence
 Not specified.
-***(Note: Specify the license here or include a license file in this directory, if applicable.)***  
 
 ## Data Availability
 
