@@ -27,10 +27,9 @@ PRSは全ての研究地域において一貫して2型糖尿病有病と関連�
 ***(注：READMEの構造は，研究プロジェクトや好みに合わせて自由に編集してください！)***  
 
 ## Notebookおよびその他の成果物
-- 前処理：xxx.ipynb
-- 解析：xxx.ipynb
-- 可視化：xxx.ipynb
-
+- Main Analysis: 01_main_analysis.ipynb
+- Site-specific Analysis: 02_site_specific_analysis.ipynb
+ 
 ## 必要要件
 本研究では以下の環境を使用した。
 
