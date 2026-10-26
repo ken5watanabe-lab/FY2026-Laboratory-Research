@@ -3,8 +3,8 @@
 🇺🇸 English | [🇯🇵 日本語](./README_JPN.md)  
 This directory contains the publicly shareable research outputs (e.g., Jupyter Notebooks, analysis scripts, and workflow programs) created by Harutoshi Sako during the FY2026 Laboratory Research, a third-year course at the Faculty of Medicine, Tokushima University.  
 
-## Research Project; Regional differences in type 2 diabetes prevalence in Japan
-### abstract
+## Research Project: Regional differences in type 2 diabetes prevalence in Japan
+## abstract
 Background and Objective:
  Regional differences in type 2 diabetes prevalence have been reported in Japan, but the underlying factors remain unclear. This study investigated whether genetic risk, neighborhood environment, and physical activity could explain these regional differences.
 
@@ -53,7 +53,13 @@ Japanese figures were rendered using the Google Font "Noto Sans JP" via the show
 ...  
 ***(Note: Specify the license here or include a license file in this directory, if applicable.)***  
 
-## Requirements, Licence, Acknowledgement, etc.
+## Data Availability
+
+The data used in this study were obtained from the J-MICC Study.
+
+Individual-level participant data are not publicly available due to ethical and privacy restrictions and therefore cannot be shared through this repository.
+
+## Acknowledgement
 This work was conducted as part of the FY2026 Laboratory Research course at the Faculty of Medicine, Tokushima University.
 
 The author gratefully acknowledges the guidance of Dr. Kengo Watanabe and the members of the Watanabe Laboratory.
@@ -62,4 +68,4 @@ The analyses were performed using data from the J-MICC Study. Individual-level d
 
 ## Log
 - Created this directory: Oct. 21, 2026 (Kengo Watanabe)
-- Uploaded the research output: xxx (yyy)
+- Uploaded the research output: Oct. 26, 2026 (Harutoshi Sako)
