@@ -50,9 +50,7 @@ Japanese figures were rendered using the Google Font "Noto Sans JP" via the show
 
 
 ## Licence
-This repository contains publicly shareable research materials, including analysis scripts and notebooks.
-
-Individual-level data from the J-MICC Study are not included in this repository and cannot be publicly shared.
+Not specified.
 ***(Note: Specify the license here or include a license file in this directory, if applicable.)***  
 
 ## Data Availability
