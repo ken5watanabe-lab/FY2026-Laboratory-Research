@@ -35,7 +35,11 @@ Future Perspectives:
 ***(Note: Specify the license here or include a license file in this directory, if applicable.)***  
 
 ## Requirements, Licence, Acknowledgement, etc.
-...  
+This work was conducted as part of the FY2026 Laboratory Research course at the Faculty of Medicine, Tokushima University.
+
+The author gratefully acknowledges the guidance of Dr. Kengo Watanabe and the members of the Watanabe Laboratory.
+
+The analyses were performed using data from the J-MICC Study. Individual-level data are not publicly available due to ethical and privacy restrictions. 
 
 ## Log
 - Created this directory: Oct. 21, 2026 (Kengo Watanabe)
