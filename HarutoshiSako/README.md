@@ -26,7 +26,8 @@ Future Perspectives:
 
 ## Requirements
 This project was developed using:
-- R 4.3.3 (2024-02-29)
+
+R 4.3.3 (2024-02-29)
 
 Main R packages:
 - pacman
