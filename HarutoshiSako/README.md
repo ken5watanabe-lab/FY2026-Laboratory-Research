@@ -33,18 +33,18 @@ This project was developed using:
 R 4.3.3 (2024-02-29)
 Main R packages:
 
-pacman　　
-rio　　
-here　　
-skimr　　
-tidyverse　　
-gtsummary　　
-rstatix　　
-janitor　　
-scales　　
-flextable　　
-showtext　　
-ggrepel　　
+-pacman　　
+-rio　　
+-here　　
+-skimr　　
+-tidyverse　　
+-gtsummary　　
+-rstatix　　
+-janitor　　
+-scales　　
+-flextable　　
+-showtext　　
+-ggrepel　　
 
 Japanese figures were rendered using the Google Font "Noto Sans JP" via the showtext package.
 
