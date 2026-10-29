@@ -1,7 +1,7 @@
-# \Akari FUJIMOTO\'s Work
+# Akari FUJIMOTO's Work
 
 🇺🇸 English | [🇯🇵 日本語](./README_JPN.md)  
-This directory contains the publicly shareable research outputs (e.g., Jupyter Notebooks, analysis scripts, and workflow programs) created by \[Student Name\] during the FY2026 Laboratory Research, a third-year course at the Faculty of Medicine, Tokushima University.  
+This directory contains the publicly shareable research outputs (e.g., Jupyter Notebooks, analysis scripts, and workflow programs) created by Akari FUJIMOTO during the FY2026 Laboratory Research, a third-year course at the Faculty of Medicine, Tokushima University.  
 
 ## Construction and evaluation of a biological age model derived from blood metabolome data in the Japanese population
 This study used data from the Tohoku Medical Megabank Project to construct a biological age model derived from blood metabolome in the Japanese population.   
@@ -45,7 +45,15 @@ Furthermore, the difference between predicted age and actual age was calculated 
 
 
 ## Requirements
-...  
+- python 3.10.12
+- pandas
+- numpy
+- scikit-learn
+- matplotlib
+- japanize-matplotlib
+- seaborn
+- statsmodels
+- miss forest
 
 ## Licence
 The analysis data will not be made public.
@@ -55,4 +63,4 @@ Data from the Tohoku Medical Megabuck Project was used.
 
 ## Log
 - Created this directory: Oct. 21, 2026 (Kengo Watanabe)
-- Uploaded the research output: xxx (yyy)
+- Uploaded the research output: Oct. 22, 2026 (Akari FUJIMOTO)
