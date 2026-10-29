@@ -9,7 +9,7 @@ Seven age prediction models were created using LASSO regression from three platf
 Furthermore, the difference between predicted age and actual age was calculated as Δage, and its association with clinical laboratory items and medical history was evaluated.   
 
 ## Notebooks and Other Materials
-# Preprocess
+### Preprocess
 1. 1_25117_TMM-BAge_Precheck-ver1.ipynb
 - Loading the original data
 - Checking the data structure
@@ -28,7 +28,7 @@ Furthermore, the difference between predicted age and actual age was calculated 
 - Data preprocessed
 7. 7_261002_TMM-BAge_MetAge-preprocess.ipynb
 - Data preprocessed
-# Model creation
+### Model creation
 8. 8_261016_TMM-BAge_MetAge-LASOO-regressionSHAP.ipynb
 - Creating a metabolome-derived model
 - Calculate SHAP value
@@ -36,10 +36,10 @@ Furthermore, the difference between predicted age and actual age was calculated 
 - Creating a specific health check up-derived model
 10. 10_261019_TMM-BAge_LaboAge-LASSO.ipynb
 - Creating a laboratory test-derived model
-# Plotting
+### Plotting
 11. 11_261019_TMM-BAge_model-comparision.ipynb
 - Comparison between categorical models
-# Regression analysis
+### Regression analysis
 12. 12_261019_TMM-BAge_pheno-panel-regression.ipynb
 - Phenotypic regression analysis
 
