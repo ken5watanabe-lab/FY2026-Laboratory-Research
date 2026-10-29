@@ -28,30 +28,34 @@
 - 解析対象データの抽出
 - 前処理
 7. 7_261002_TMM-BAge_MetAge-preprocess.ipynb
-- 解析対象データの抽出
 - 前処理
 8. 8_261016_TMM-BAge_MetAge-LASOO-regressionSHAP.ipynb
-- 
+- メタボローム由来モデルの作成
+- SHAP値の算出
 9. 9_261019_TMM-BAge_SpeAge-LASSO.ipynb
-
+- 特定健診由来モデルの作成
 10. 10_261019_TMM-BAge_LaboAge-LASSO.ipynb
-
+- 臨床検査由来モデルの作成
 11. 11_261019_TMM-BAge_model-comparision.ipynb
-
+- カテゴリモデル間の比較
 12. 12_261019_TMM-BAge_pheno-panel-regression.ipynb
-
+- 表現型回帰分析
 
 ## 必要要件
-...  
+- python
+- pandas
+- numpy
+- scikit-learn
+- matplotlib
+- seaborn
+- statsmodels
 
 ## ライセンス
-...  
-
-***(注：必要に応じてライセンスを記載するか，本ディレクトリ内にライセンスファイルを配置してください．)***  
+解析データは公開しない 
 
 ## 謝辞
-...  
+東北メディカル・メガバンク計画のデータを利用した。 
 
 ## ログ
 - ディレクトリ作成：2026年10月21日（渡邊謙吾）
-- 成果物の追加：2026年xx月xx日（yyy）
+- 成果物の追加：2026年10月22日（藤本茜李）
