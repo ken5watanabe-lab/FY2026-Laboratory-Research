@@ -2,130 +2,135 @@
 
 [🇺🇸 English](./README.md) | 🇯🇵 日本語  
 このディレクトリは，2026年度医学研究実習（徳島大学 医学部 医学科 3年次科目）における鳥居優花が作成した公開可能な研究成果（Jupyter Notebook，解析スクリプト，ワークフロープログラムなど）をまとめています．  
-
 ## 研究テーマ
+
 血液プロテオームデータを用いた膵臓がん分類モデルの構築と性能評価
 
 ## Notebookおよびその他の成果物
-Proteomics_valildation398_Aichi　には膵がん罹患の有無をアウトカムにした解析のコードが入っています。
-Proteomics_valildation398_Aichi_Progress には膵がんの進展度をアウトカムにした解析のコードが入っています。
+
+`Proteomics_valildation398_Aichi` には膵がん罹患の有無をアウトカムにした解析のコードが入っています。
+
+`Proteomics_valildation398_Aichi_Progress` には膵がんの進展度をアウトカムにした解析のコードが入っています。
 
 各ファイルの紹介は以下のとおりです。
 
 ### 1. 前処理・データの可視化・品質管理
-01A-preprocessing.ipynb
+
+**`01A-preprocessing.ipynb`**
 
 プロテオームデータおよびサンプル情報の読み込みと前処理を行う。解析対象のデータを整形し、以降の統計解析や機械学習に使用できる形式に準備する。
 
-01B-Visualization.ipynb
+**`01B-Visualization.ipynb`**
 
 プロテオームデータやサンプル属性の基本的な可視化を行う。データの分布や特徴を把握し、解析前のデータ特性を確認する。
 
-11-QC_Spearman.ipynb
+**`11-QC_Spearman.ipynb`**
 
 サンプル間のSpearman相関係数を算出し、プロテオーム発現パターンの類似性を評価する。サンプル間の一貫性や外れたサンプルの有無を確認する。
 
-12-QC_PlateEffect.ipynb
+**`12-QC_PlateEffect.ipynb`**
 
 測定プレートの違いがプロテオームデータに与える影響を評価する。プレート由来の系統的な差が、膵がんと対照群の比較に影響していないかを確認する。
 
-12-QC_WELL_COUNT.ipynb
+**`12-QC_WELL_COUNT.ipynb`**
 
 測定ウェル数やデータの取得状況を確認し、測定品質や欠損の状況を評価する。
 
-12-QC_WELL_NPX.ipynb
+**`12-QC_WELL_NPX.ipynb`**
 
 Olinkの測定値であるNPXの分布やウェルごとの測定状況を確認する。測定値の異常やデータ品質上の問題を把握する。
 
-
 ### 2. 主成分分析・回帰分析
-02-pca_analysis.ipynb
+
+**`02-pca_analysis.ipynb`**
 
 主成分分析（PCA）を用いて、多数のタンパク質からなるプロテオームデータの全体的な構造を評価する。膵がん群と対照群の分布や、データに含まれる主要な変動パターンを確認する。
 
-03-regression_on_pca.ipynb
+**`03-regression_on_pca.ipynb`**
 
 主成分と膵がん罹患の有無やサンプル属性との関連を回帰分析によって評価する。どの主成分が膵がんの状態と関連するかを検討する。
 
-04-pca_violinplots.ipynb
+**`04-pca_violinplots.ipynb`**
 
 PCAで得られた主成分スコアを群別のバイオリンプロットなどで可視化する。膵がん群と対照群で主成分の分布に違いがあるかを確認する。
 
-
 ### 3. タンパク質の対応付け・差次的発現解析・機能解析
-10-Olink-Assay-Mapping.ipynb
+
+**`10-Olink-Assay-Mapping.ipynb`**
 
 Olinkの測定アッセイとタンパク質名・IDの対応付けを行う。異なるデータセット間でタンパク質を照合し、解析に使用する特徴量を整理する。
 
-11-Limma.ipynb
+**`11-Limma.ipynb`**
 
 limmaを用いて、膵がん群と対照群の間でタンパク質発現量の差を統計的に評価する。多重検定補正などに基づいて差次的発現タンパク質（DEP）を抽出する。
 
-12-EnrichmentAnalysis.ipynb
+**`12-EnrichmentAnalysis.ipynb`**
 
 差次的発現タンパク質などを対象に、GOや経路データベースを用いたエンリッチメント解析を行う。膵がんに関連する生物学的機能や経路を探索する。
 
-ORA.ipynb
+**`ORA.ipynb`**
 
 Over-Representation Analysis（ORA）により、選択したタンパク質群に特定の生物学的機能や経路が過剰に含まれているかを評価する。
 
-
 ### 4. WGCNA・モジュール解析
-13-WGCNA.ipynb
+
+**`13-WGCNA.ipynb`**
 
 WGCNAを用いて、発現パターンが類似するタンパク質を共発現モジュールに分類する。各モジュールと膵がん罹患の有無との関連を調べ、関連するタンパク質群を探索する。
 
-14-EigengeneML.ipynb
+**`14-EigengeneML.ipynb`**
 
 WGCNAで得られた各モジュールの代表値であるモジュール固有遺伝子（Module Eigengene）のスコアを特徴量として、膵がん罹患の有無を分類する機械学習モデルを構築・評価する。
 
-Module_enrichment.ipynb
+**`Module_enrichment.ipynb`**
 
 WGCNAで得られたタンパク質モジュールごとに機能エンリッチメント解析を行い、各モジュールが関係する生物学的機能を調べる。
 
-Module_enrichment-Connect.ipynb
+**`Module_enrichment-Connect.ipynb`**
 
 モジュール内のタンパク質間の関連性や接続性を考慮しながら、モジュールの機能や中心的なタンパク質を検討する。
 
-
 ### 5. 膵がん分類モデル・モデル解釈
-21A-Classifier.ipynb
+
+**`21A-Classifier.ipynb`**
 
 プロテオームデータを特徴量、膵がん罹患の有無をアウトカムとして、Random Forestなどの分類モデルを構築する。
 
-21B-Classifier-SHAP.ipynb
+**`21B-Classifier-SHAP.ipynb`**
 
 SHAPを用いて分類モデルの予測根拠を解釈する。各タンパク質が膵がんの予測にどの程度寄与するかを評価し、重要な特徴量を抽出する。
 
-21B-Classifier-Stratify.ipynb
+**`21B-Classifier-Stratify.ipynb`**
 
 層化交差検証などを用いて、膵がん分類モデルの性能を評価する。データを群の割合を保ちながら分割し、性能評価の安定性や妥当性を検討する。
 
-21D-Classifier-ICD.ipynb
+**`21D-Classifier-ICD.ipynb`**
 
 ICD関連の診断情報や分類情報を用いて、膵がんの分類対象やラベルを整理し、分類モデルの解析に利用する。
 
-22-SHAPvalue.ipynb
+**`22-SHAPvalue.ipynb`**
 
 SHAP値を集計し、膵がん分類モデルにおけるタンパク質の重要度を評価する。予測への寄与が大きいタンパク質を可視化する。
 
-22-SHAPvalue2.ipynb
+**`22-SHAPvalue2.ipynb`**
 
 SHAP値の追加解析や可視化を行い、タンパク質の重要度やモデルの予測特性を詳しく検討する。
 
-
 ### 6. CA19-9関連解析
-21C-Classifier-predictCA19-9.ipynb
+
+**`21C-Classifier-predictCA19-9.ipynb`**
 
 プロテオームデータからCA19-9の値を予測する回帰モデルを構築・評価する。予測CA19-9と実測CA19-9の関係を調べ、膵がん分類への応用可能性を検討する。
 
-21C-predictCA19-9_Limma.ipynb
+**`21C-predictCA19-9_Limma.ipynb`**
 
 CA19-9の予測値と実測値の差（残差）に着目し、その差と関連するタンパク質をlimmaなどで解析する。実測CA19-9だけでは捉えにくい生物学的特徴が存在するかを探索する。
 
-ca19-9relation.ipynb
+**`ca19-9relation.ipynb`**
 
 CA19-9とプロテオームデータ、膵がん罹患の有無との関係を解析する。CA19-9単独の診断性能や、他のタンパク質との関連を評価する。
+
+
 
 ## 必要要件
 ...  
