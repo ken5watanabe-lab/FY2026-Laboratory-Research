@@ -29,6 +29,7 @@
 - 前処理
 7. 7_261002_TMM-BAge_MetAge-preprocess.ipynb
 - 前処理
+# モデル作成
 8. 8_261016_TMM-BAge_MetAge-LASOO-regressionSHAP.ipynb
 - メタボローム由来モデルの作成
 - SHAP値の算出
@@ -36,8 +37,10 @@
 - 特定健診由来モデルの作成
 10. 10_261019_TMM-BAge_LaboAge-LASSO.ipynb
 - 臨床検査由来モデルの作成
+# 描画
 11. 11_261019_TMM-BAge_model-comparision.ipynb
 - カテゴリモデル間の比較
+# 回帰分析
 12. 12_261019_TMM-BAge_pheno-panel-regression.ipynb
 - 表現型回帰分析
 
