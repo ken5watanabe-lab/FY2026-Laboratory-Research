@@ -9,9 +9,40 @@ Seven age prediction models were created using LASSO regression from three platf
 Furthermore, the difference between predicted age and actual age was calculated as Δage, and its association with clinical laboratory items and medical history was evaluated.   
 
 ## Notebooks and Other Materials
-- Preprocessing: xxx.ipynb
-- Analysis: xxx.ipynb
-- Visualization: xxx.ipynb
+# Preprocess
+1. 1_25117_TMM-BAge_Precheck-ver1.ipynb
+- Loading the original data
+- Checking the data structure
+2. 2_260916_TMM_preprocess-ffq.ipynb
+- Quality check
+3. 3_260924_TMM-BAge_Preproceess_Metabolome.ipynb
+- Extraction of data to be analyzed
+- Quality check
+4. 4_261008_TMM-BAge_lifestyle-preprocess.ipynb
+- Extraction of data to be analyzed
+5. 5_260930_TMM-BAge_specific-panel.ipynb
+- Extraction of data to be analyzed
+- Data preprocessed
+6. 6_261005_TMM-BAge_laboratory-panel.ipynb
+- Extraction of data to be analyzed
+- Data preprocessed
+7. 7_261002_TMM-BAge_MetAge-preprocess.ipynb
+- Data preprocessed
+# Model creation
+8. 8_261016_TMM-BAge_MetAge-LASOO-regressionSHAP.ipynb
+- Creating a metabolome-derived model
+- Calculate SHAP value
+9. 9_261019_TMM-BAge_SpeAge-LASSO.ipynb
+- Creating a specific health check up-derived model
+10. 10_261019_TMM-BAge_LaboAge-LASSO.ipynb
+- Creating a laboratory test-derived model
+# Plotting
+11. 11_261019_TMM-BAge_model-comparision.ipynb
+- Comparison between categorical models
+# Regression analysis
+12. 12_261019_TMM-BAge_pheno-panel-regression.ipynb
+- Phenotypic regression analysis
+
 
 ## Requirements
 ...  
@@ -20,7 +51,7 @@ Furthermore, the difference between predicted age and actual age was calculated 
 The analysis data will not be made public.
 
 ## Requirements, Licence, Acknowledgement, etc.
-...  
+Data from the Tohoku Medical Megabuck Project was used.
 
 ## Log
 - Created this directory: Oct. 21, 2026 (Kengo Watanabe)
