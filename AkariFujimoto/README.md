@@ -1,9 +1,9 @@
-# \[Student Name\]'s Work
+# \[Akari FUJIMOTO\]'s Work
 
 🇺🇸 English | [🇯🇵 日本語](./README_JPN.md)  
 This directory contains the publicly shareable research outputs (e.g., Jupyter Notebooks, analysis scripts, and workflow programs) created by \[Student Name\] during the FY2026 Laboratory Research, a third-year course at the Faculty of Medicine, Tokushima University.  
 
-## Research Project
+## Construction and evaluation of a biological age model derived from blood metabolome data in the Japanese population
 abstract
 
 ***(Note: Feel free to edit the README structure based on your project and preference!)***  
